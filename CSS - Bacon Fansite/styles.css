@@ -8,9 +8,9 @@ p{
     color: red;
 }
 
-/* img{
-    background-color: red;
-} */
+img:hover{
+    background-color: goldenrod;
+}
 
 /* CLASS SELECTORS */
 
@@ -20,4 +20,12 @@ p{
 
 .brocolli{
     background-color: red;
+}
+
+.circular{
+    border-radius: 2cm;
+}
+/* ID SELECTORS */
+#heading{  /* ID's are unique and cannot be replicated */
+    color: magenta;
 }
