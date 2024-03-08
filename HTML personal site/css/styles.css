@@ -1,0 +1,25 @@
+body{
+    background-color: #d7f1f1;
+}
+
+hr{
+    
+    background-color: transparent;
+    border-style: none;
+    height: 2px;
+    width: 10%;
+    border-top: dotted 0.2cm ;
+}
+
+img{
+    border-radius: 2cm;
+}
+
+h1{
+    color:#66bfbf;
+}
+
+h3{
+    color:#66bfbf;
+}
+
