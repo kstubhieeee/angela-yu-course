@@ -6,6 +6,23 @@ body{
 h1{
     margin-top: 0px;
     padding-top: 140px;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+}
+
+h2{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 30px;
+  font-style: normal;
+}
+
+h3{
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .top-container{
