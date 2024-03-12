@@ -29,16 +29,7 @@ h3{
     background-color: #6dcfcf;
 }
 
-.middle-container{
-    background-color: rgb(244, 244, 76);
-    height: 200px;
-    width: 200px;
-}
-.bottom-container{
-    background-color: rgb(233, 209, 105);
-    height: 200px;
-    width: 200px;
-}
+
 
 span{
     text-decoration: underline;
