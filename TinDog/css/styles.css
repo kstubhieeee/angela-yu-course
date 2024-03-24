@@ -84,12 +84,15 @@ body{
 
 /* testimonials */
 #testimonials{
-    padding: 7% 15%;
+  
     text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
+.carousel-item{
+    padding: 7% 15%;
+}
 p{
     color: #8f8f8f;
 }
