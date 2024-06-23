@@ -45,7 +45,3 @@ function animatePress(currentColor) {
     $("." + currentColor).removeClass("pressed");
   }, 100);
 }
-
-$(document).keypress(function () {
-  nextSequence();
-});
