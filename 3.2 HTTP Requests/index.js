@@ -23,9 +23,13 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send(req.rawHeaders);
+  res.send("yooooooooo");
 });
 
 app.get("/info", (req, res) => {
   res.send("<h1>Kaustubh is a okayish programmer</h1>");
+});
+
+app.get("/contact", (req, res) => {
+  res.send("<h1>Kaustubh Bane</h1><br><h3>9321572497</h3>");
 });
