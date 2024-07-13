@@ -12,13 +12,14 @@
   <% if(locals.yourName){ %>
     <h1>Your name is <%= yourName %>
     </h1>
-    <% } %>
+    <% } else{%>
       <h1>Enter your name below</h1>
-      <form action="/submit" method="POST">
-        <input type="text" name="fName" placeholder="First name">
-        <input type="text" name="lName" placeholder="Last name">
-        <input type="submit" value="OK">
-      </form>
+      <% } %>
+        <form action="/submit" method="POST">
+          <input type="text" name="fName" placeholder="First name">
+          <input type="text" name="lName" placeholder="Last name">
+          <input type="submit" value="OK">
+        </form>
 </body>
 
 </html>
