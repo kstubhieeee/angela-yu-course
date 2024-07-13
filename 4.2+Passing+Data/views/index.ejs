@@ -9,8 +9,9 @@
 
 <body>
   <!-- Write your code here -->
-  <% if(locals.numberOfLetters){ %>
-    <h1>There are <%= numberOfLetters %> in your name</h1>
+  <% if(locals.yourName){ %>
+    <h1>Your name is <%= yourName %>
+    </h1>
     <% } %>
       <h1>Enter your name below</h1>
       <form action="/submit" method="POST">
